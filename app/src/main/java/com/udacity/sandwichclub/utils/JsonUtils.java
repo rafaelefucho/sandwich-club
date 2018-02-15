@@ -55,6 +55,7 @@ public class JsonUtils {
     }
 
     private static List<String> fromJsonArraytoStringList(JSONArray jsonArray){
+        // Taked from https://stackoverflow.com/questions/15871309/convert-jsonarray-to-string-array
 
         List<String> result = new ArrayList<String>();
         for(int i = 0; i < jsonArray.length(); i++){

@@ -58,6 +58,7 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void populateUI(Sandwich sandwich) {
+
         TextView placeOfOrigin = (TextView) findViewById(R.id.origin_tv);
         TextView description = (TextView) findViewById(R.id.description_tv);
         TextView ingredients = (TextView) findViewById(R.id.ingredients_tv);
